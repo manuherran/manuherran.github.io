@@ -1,14 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Mi página personal</title>
-  </head>
-  <body>
-    <h1>Hola, soy Manu Herrán</h1>
-    <ul>
-    <li><p>Mi espacio en GitHub: <a href="https://github.com/manuherran/">github.com/manuherran</a></p></li>
-    <li><p>Mi web personal: <a href="https://manuherran.com">manuherran.com</a></p></li>
-    </ul>
-  </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manu Herrán</title>
+  <meta name="description" content="Manu Herrán: proyectos sobre sentiencia, consciencia, vida artificial, datos y docencia.">
+  <style>
+    :root { --bg:#fff; --fg:#1d1d1f; --muted:#6e6e73; --link:#0b57d0; --line:#e5e5ea; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#111113; --fg:#f2f2f7; --muted:#a1a1a6; --link:#8ab4f8; --line:#2c2c2e; } }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+    main { max-width:680px; margin:0 auto; padding:56px 16px; }
+    h1 { font-size:2rem; margin:0 0 .25rem; }
+    h2 { font-size:.85rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:2.5rem 0 .75rem; }
+    p.lead { color:var(--muted); margin:0; }
+    ul { list-style:none; padding:0; margin:0; }
+    li { padding:.6rem 0; border-bottom:1px solid var(--line); }
+    a { color:var(--link); text-decoration:none; font-weight:600; }
+    a:hover { text-decoration:underline; }
+    span { display:block; color:var(--muted); font-size:.95rem; }
+    footer { margin-top:3rem; color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Manu Herrán</h1>
+  <p class="lead">Sentiencia, consciencia, vida artificial, datos y docencia.</p>
+
+  <h2>Web personal</h2>
+  <ul>
+    <li><a href="https://manuherran.com/">manuherran.com</a><span>Artículos, libros, datasets y cursos</span></li>
+  </ul>
+
+  <h2>Proyectos</h2>
+  <ul>
+    <li><a href="https://sentience-research.org/">sentience-research.org</a><span>Investigación sobre la sentiencia</span></li>
+    <li><a href="https://gaiabasic.com/">GaiaBasic</a><span>Simulación de teorías metafísicas de la consciencia, la sentiencia y la identidad</span></li>
+    <li><a href="https://aboutsuffering.org/">aboutsuffering.org</a><span>Sobre el sufrimiento</span></li>
+    <li><a href="https://unbiasedmachine.com/">unbiasedmachine.com</a><span>Unbiased Machine</span></li>
+    <li><a href="https://redcientifica.com/">Red Científica</a><span>Ciencia, tecnología y pensamiento</span></li>
+  </ul>
+
+  <h2>Código y datos</h2>
+  <ul>
+    <li><a href="https://github.com/manuherran">github.com/manuherran</a><span>Repositorios: GaiaBasic, bases de datos de ejemplo, datasets y librerías</span></li>
+  </ul>
+
+  <footer>© Manu Herrán</footer>
+</main>
+</body>
 </html>
